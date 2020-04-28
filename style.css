@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: rgba(35, 74, 202, 0.863);
+    width: 100%;
+    height: 80px;
+    
+}
+
+#home{
+    color:black;
+    font-size: smaller;
+}
+li{
+    padding: 10px;
+}
+#home:hover{
+    background-color:rgba(35, 74, 202, 0.863 );
+    color: white;
+    border-radius: 20px;
+}
+#homee{
+    background-color:rgba(35, 74, 202, 0.863 );
+    color: white;
+    border-radius: 20px;
+    font-size: smaller;
+}
+.icons{
+    padding: 5px 20px 10px 20px;
+    color: white;
+    float: left;
+    font-size: 10px;
+    display: inline-block;
+}
+.kk:hover{
+    color: white;
+    /* background-color: white; */
+}
+#two{
+    float: left;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+
+}
+#three{
+    float: left;
+    color: yellowgreen;
+    margin-left: 40px;
+}
+#btn{
+    font-size: 12px;
+    background-color: white;
+    color: rgb(92, 131, 14);
+    border: 1px solid rgb(94, 136, 10);
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+}
+
+#logo{
+    width: 200px;
+    height: 60px;
+    float: left;
+
+
+}
+.header{
+    width: 100%;
+    background-color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
+    
+}
+.kk{
+    height: 200px;
+    width: 80px;
+    text-align: center;
+    margin: 10px;
+    line-height: 60px;
+    color: rgb(223, 215, 215);
+  }
+.carousel-inner img {
+      width: 100%;
+      height: 400px;
+  }
+
+#news{
+    background-color:rgba(35, 74, 202, 0.863 ) ;
+    color: white;
+    margin-top: 5px;
+ } 
+span{
+  font-family: 'Merriweather', serif;
+}
+h1{
+    text-align: center;
+    padding-top: 40px;
+}
+#i{
+    color: rgba(43, 43, 185, 0.849);
+}
+#d{
+    color: rgb(71, 131, 11);
+}
+.para{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: darkgray;
+}
+nav{
+    width: 100%;
+    /* float: right; */
+}
+
+#mai{
+    /* display: inline-flex; */
+    background-color:rgba(24, 24, 230, 0.884);
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#ll{
+    display: inline-block;
+    padding: 20px;
+    /* float: left; */
+    color: white;
+    height: 300px;
+    margin-top: 100px;
+    font-size: large;
+    width: 500px;
+    
+}
+
+#mm{
+    width: 40px;
+    height: 40px;
+    margin: auto 40px;
+}
+#k{
+    font-size: 50px;
+}
+#row{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+}
+#col{
+    width: 300px;
+    height: 200px;
+    background-color: #f7f7f7;
+    color: rgb(5, 61, 107);
+    margin: 70px;
+    box-shadow: 0 5px 20px 0 rgb(122, 122, 122);
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+#p{
+    background-color: yellowgreen;
+    width: 50px;
+    height: 2px;
+    float: left;
+    margin-top: 30px;
+}
+#div{
+    display: flex;
+    justify-content: center;
+}
+#favi{
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    float: left;
+    margin-bottom: 50px;
+}
+#new{
+    float: left;
+    background-color: white;
+    color: rgb(48, 47, 47);
+    width: 40%;
+    text-align: left;
+}
+#midle{
+    background-color: rgb(255, 255, 255);
+    /* float: left; */
+    
+}
+#imgg{
+    width: 300px;
+    height: 80px;
+    background-color: #fafafa;
+    color: rgb(5, 61, 107);
+    margin: 70px;
+    /* box-shadow: 0 5px 20px 0 rgb(197, 194, 194); */
+    border: 1px solid rgb(241, 237, 237);
+    padding: 20px;
+   
+}
+
+#l{
+    color:  rgb(8, 111, 196);
+    font-size: 20px;
+    float: left;
+    margin-left: 40px;
+}
+
+footer{
+    background-color: rgba(20, 20, 20, 0.952);
+    height: 500px;
+    color: white;
+    padding: 80px 0 50px 40px;
+    display: flex;
+}
+#ico{
+    color: yellowgreen;
+   
+}
+.iconn{
+    float: right;
+    margin-right: 20%;
+    width: fit-content;
+}
+.k{
+    /* height: 0px;
+    width: 40px; */
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(250, 250, 250);
+    background-color: rgba(7, 86, 160, 0.952);
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 8px;
+}
+.k:hover{
+    color: white;
+}
+.galery{
+    margin-bottom: 600px;
+}
+#colll{
+    width: 200px;
+    height: 150px;
+    background-color: #e6e6e6;
+    border: 1px solid rgb(223, 219, 219);
+    float: left;    
+    transition: ease-in-out;
+}
+#colll:hover{
+    scale: 2;
+    cursor: pointer;
+}
+.footerr{
+    /* display: block; */
+    float: left;
+}
+.bottom{
+    height: 50px;
+    background-color: rgba(7, 86, 160, 0.952);
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(148, 148, 148, 0.356); /* Set a background color */
+    color: rgb(3, 3, 3); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding-bottom: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 44px; /* Increase font size */
+    height: 55px;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(177, 174, 174); /* Add a dark-grey background on hover */
+  }
